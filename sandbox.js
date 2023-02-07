@@ -1,8 +1,8 @@
-var character = 'mario';
-var age = 30;
-var isBlackBelt = false;
-character = 'luigi';
-var circ = function (diameter) {
-    return diameter * Math.PI;
+var names = ['luigi', 'mario', 'yoshi'];
+names.push('toad');
+var mixed = ['ken', 4, 'chun-li', 9, 8, true];
+var ninja = {
+    name: 'mario',
+    belt: 'black',
+    age: 30
 };
-console.log(circ(8));

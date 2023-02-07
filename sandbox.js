@@ -1,8 +1,12 @@
-var names = ['luigi', 'mario', 'yoshi'];
-names.push('toad');
-var mixed = ['ken', 4, 'chun-li', 9, 8, true];
-var ninja = {
-    name: 'mario',
-    belt: 'black',
-    age: 30
-};
+// explicit types
+var character;
+var age;
+var isLoggedIn;
+// arrays
+var ninjas = []; //need = [] to declare it as empty so you can push to it.
+// union types
+var mixed = [];
+var uid;
+// objects
+var ninjaOne;
+var ninjaTwo;

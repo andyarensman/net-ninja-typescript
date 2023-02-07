@@ -1,11 +1,23 @@
-let names = ['luigi', 'mario', 'yoshi'];
+// explicit types
+let character: string;
+let age: number;
+let isLoggedIn: boolean;
 
-names.push('toad');
+// arrays
+let ninjas: string[] = []; //need = [] to declare it as empty so you can push to it.
 
-let mixed = ['ken', 4, 'chun-li', 9, 8, true];
 
-let ninja = {
-  name: 'mario',
-  belt: 'black',
-  age: 30
-};
+
+
+// union types
+let mixed: (string|number)[] = [];
+
+let uid: string|number;
+
+// objects
+let ninjaOne: object;
+let ninjaTwo: {
+  name: string,
+  age: number,
+  beltColor: string
+}

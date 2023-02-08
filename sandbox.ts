@@ -1,23 +1,5 @@
-// explicit types
-let character: string;
-let age: number;
-let isLoggedIn: boolean;
+let age: any;
 
-// arrays
-let ninjas: string[] = []; //need = [] to declare it as empty so you can push to it.
+let mixed: any[] = [];
 
-
-
-
-// union types
-let mixed: (string|number)[] = [];
-
-let uid: string|number;
-
-// objects
-let ninjaOne: object;
-let ninjaTwo: {
-  name: string,
-  age: number,
-  beltColor: string
-}
+let ninja: { name: any, age: any }
